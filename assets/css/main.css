@@ -72,5 +72,13 @@ button{
     border-radius: 14px;
     width: 100%;
     margin-top: 1.5em;
-
+    transition: 500ms ease-in-out;
+}
+button{
+    background-color: blueviolet;
+    padding: 10px;
+    border: none;
+    border-radius: 14px;
+    width: 100%;
+    margin-top: 1.5em;
 }
