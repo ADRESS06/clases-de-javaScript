@@ -1,0 +1,67 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.temaH{
+    padding: 2vh;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to left, aqua, violet, aqua);
+    transition: ease-in-out 500ms;
+}
+.temaHoscuro{
+    padding: 2vh;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to left, purple, gray, purple);
+}
+.botonWBback{
+    cursor: pointer;
+    width: 50px;
+    height: 25px;
+    background-color: transparent;
+    border-radius: 56px;
+    position: relative;
+    padding: 3px;
+    border: 2px solid black;
+    transform: scale(0.7);
+    margin-top: -4px;
+    opacity: 60%;   
+}
+.botonWBback:hover{
+    opacity: 90%;
+    transition: linear 1s;
+}
+.botonWBcircle{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 56px;
+    position: absolute;
+    transition: ease-in-out 500ms;
+}
+.tema{
+    background-color: white;
+    color: black;
+    transition: ease-in-out 500ms;
+}
+.tema-oscuro{
+    background-color: black;
+    color: white;
+}
+h1{
+    margin-bottom: 2%;
+}
+.panel{
+    width: 80vw;
+    margin: 0  auto;
+    margin-bottom: 5%;
+    padding: 2em;
+    border: 1px solid;
+    border-radius: 14px;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px gray;
+}
+h2{
+    margin-bottom: 1%;
+}
