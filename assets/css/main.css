@@ -74,7 +74,7 @@ button{
     margin-top: 1.5em;
     transition: 500ms ease-in-out;
 }
-button{
+button:hover{
     background-color: blueviolet;
     padding: 10px;
     border: none;
