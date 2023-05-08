@@ -5,4 +5,4 @@ function obfl(){
     saludar();
 }
 
-obfl()
+// obfl()

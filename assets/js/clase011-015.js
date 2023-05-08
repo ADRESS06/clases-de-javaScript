@@ -71,7 +71,7 @@ function loops(){
 }
 
 
-arr()
-obj()
-op()
-loops()
+// arr()
+// obj()
+// op()
+// loops()

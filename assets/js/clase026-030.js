@@ -47,9 +47,7 @@ function alcopr(){
     console.log(aviso);
 }
 
-dat()
-mat()
-cosi()
-/*esta funcion se comento para evitar molestias pero funciona desde la consola
-alcopr()
-*/
+// dat()
+// mat()
+// cosi()
+// alcopr()

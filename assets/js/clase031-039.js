@@ -22,4 +22,4 @@ function fuanau(){
       }();
 }
 
-fuanau()
+// fuanau()

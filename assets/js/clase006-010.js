@@ -25,7 +25,7 @@ function fun(){
     console.log("una funcion es un cojunto de ordenes que usaras varias veces en el codigo se usa para agilizar el desarrollo")
 }
 
-con()
-bol()
-unNulNa()
-fun()
+// con()
+// bol()
+// unNulNa()
+// fun()

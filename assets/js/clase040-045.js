@@ -8,7 +8,7 @@ console.log("inicio");
 //asincronia y evento loop
 function asevlo(){
     
-//Código Síncrono Bloquenate
+//Código Síncrono Bloqueante
     (() => {
         console.log("Código Síncrono");
         console.log("Inicio");
@@ -24,7 +24,8 @@ function asevlo(){
         console.log("Fin");
       })();
       console.log("********************");
-//Código Asíncrono No Bloquenate
+//Código Asíncrono No Bloqueante
+
       (() => {
         console.log("Código Asíncrono");
         console.log("Inicio");
@@ -45,5 +46,5 @@ function asevlo(){
       })();
 }
 
-tem()
-asevlo()
+// tem()
+// asevlo()

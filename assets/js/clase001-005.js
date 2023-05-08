@@ -12,5 +12,5 @@ console.log("las constates son variables que no cambian como su nombre lo dice e
 console.log("como dato curioso se acostubra usar let y const ya que el var es considereado una mala practica")
 }
 
-diVarLet()
-co()
+// diVarLet()
+// co()
