@@ -1,10 +1,13 @@
 //callbacks
+
 function call(){
 
   function saludar(nombre, callback) {
     let saludo = `Hola ${nombre}`;
     callback(saludo);
   }
+
+
   
   function conversacion(saludo) {
     console.log(saludo);
@@ -13,24 +16,27 @@ function call(){
   saludar(prompt("dime tu nombre"), conversacion);
 
 }
+
 //promesas
+
 function promi(){
   
   function saludar(nombre) {
     return new Promise(function(resolve, reject) {
       if (typeof nombre !== "string") {
-        reject(new Error("El nombre debe ser una cadena de texto"));
-      } else {
-        resolve("Hola, " + nombre + "!");
+        reject(new Error("Este nombre es muy raro, no me convense porque no pruebas un apodo?"));
+      }
+      else {
+        resolve(`Hola, mucho gusto ${nombre}`);
       }
     });
   }
   
   saludar("YOIMAR")
-    .then(function(resultado) {
-      console.log(resultado);
+    .then(function(EsLoQueDigaEnResolve) {
+      console.log(EsLoQueDigaEnResolve);
     })
-    .catch(function(error) {
+    .catch(function(EsLoQueDigaEnReject) {
       console.error(error);
     });
   
