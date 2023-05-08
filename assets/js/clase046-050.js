@@ -41,19 +41,21 @@ function promi(){
     });
   
 }
+
 //asyncAwait
+
 function asyncAwait(){
-  function esperarUnSegundo() {
-    return new Promise(resolve => {
+  function esperarcincoSegundo() {
+    return new Promise(function(){
       setTimeout(() => {
         resolve('¡Listo!');
-      }, 3000);
+      }, 5000);
     });
   }
   
   async function miFuncion() {
     console.log('Esperando tres segundo...');
-    const resultado = await esperarUnSegundo();
+    const resultado = await esperarcincoSegundo();
     console.log(resultado);
   }
   
@@ -63,7 +65,7 @@ function asyncAwait(){
 //simbolos
 function simb(){
 
-const miSimbolo = Symbol('Yoimar');
+const miSimbolo = Symbol('creador');
 
 
 const miObjeto = {};
