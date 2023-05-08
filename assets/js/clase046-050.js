@@ -32,7 +32,7 @@ function promi(){
     });
   }
   
-  saludar("YOIMAR")
+  saludar(prompt("ingrese un nombre"))
     .then(function(EsLoQueDigaEnResolve) {
       console.log(EsLoQueDigaEnResolve);
     })
