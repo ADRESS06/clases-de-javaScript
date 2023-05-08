@@ -10,7 +10,7 @@ function call(){
     console.log(saludo);
   }
   
-  saludar("yoimar", conversacion);
+  saludar(prompt("dime tu nombre"), conversacion);
 
 }
 //promesas
