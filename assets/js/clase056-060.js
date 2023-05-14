@@ -175,7 +175,7 @@ function jso(){
 }
  //Web apis
 
- function webapis(){
+ function webA(){
   
   console.log("######-- ALGUNAS DE LAS WEB APIS SON --######")
   console.log("DOM: Document Object Model")
@@ -188,4 +188,4 @@ function jso(){
 // Th()
 // callappbin()
 // jso()
-// webapis()
+// webA)
